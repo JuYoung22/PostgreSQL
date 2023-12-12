@@ -1,6 +1,6 @@
 import express, { Express } from 'express';
-import { connection } from './connection';
-import userRouter from './router/user'; // user라우터
+import { connection } from './scr/config/connection';
+import userRouter from './scr/router/user'; // user라우터
 import cors from 'cors';
 
 const app: Express = express();
